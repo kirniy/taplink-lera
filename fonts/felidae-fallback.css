@@ -1,0 +1,13 @@
+/* Fallback for Felidae font - using elegant serif with adjusted spacing */
+.tagline-text,
+.section-title,
+.product-title {
+    font-family: 'Bodoni Moda', 'Playfair Display', 'Didot', 'Georgia', serif;
+    font-weight: 400;
+    font-style: normal;
+    /* Slightly increase letter-spacing to approximate Felidae */
+    letter-spacing: 0.08em;
+}
+
+/* Import backup fonts from Google Fonts for better approximation */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400&family=Playfair+Display&display=swap');

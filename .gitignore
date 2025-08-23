@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
+# Dependencies (if any added later)
+node_modules/
+
+# Build output (if any added later)
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Note: CLAUDE.md is NOT ignored - it should be in the repository!
