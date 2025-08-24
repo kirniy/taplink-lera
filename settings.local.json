@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-sequentialthinking-tools__sequentialthinking_tools",
+      "mcp__figma-dev-mode-mcp-server__get_image",
+      "mcp__figma-dev-mode-mcp-server__get_code",
+      "mcp__figma-dev-mode-mcp-server__get_variable_defs",
+      "Bash(curl:*)",
+      "Bash(open:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git push:*)",
+      "Bash(gh api:*)",
+      "Bash(gh repo add-collaborator:*)",
+      "Read(//Users/kirniy/Downloads/**)",
+      "WebSearch",
+      "Bash(if [ -f .claude/settings.local.json ])",
+      "Bash(then mv .claude/settings.local.json .claude/settings.local.json.backup)",
+      "Bash(else echo \"No settings file to rename\")",
+      "Bash(fi)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
